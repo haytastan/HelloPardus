@@ -1,0 +1,47 @@
+# metadata.txt
+# Start of mandatory metadata
+# ====================================================================
+[general]
+name=HelloPardus 
+qgisMinimumVersion=3.0
+description="Hello! We use Pardus."
+version=1.0.0
+author=Dr. Hayati TAŞTAN, Geospatial IT consultant, 12.07.2020, Ankara
+email=hayati.tastan@afad.gov.tr
+about="Hello! We use Pardus. And you?"
+tracker=https://github.com/haytastan/HelloPardus/issues
+repository=https://github.com/haytastan/HelloPardus
+# =====================================================================
+# End of mandatory metadata
+
+# Recommended items:
+# =====================================================================
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=QGIS-3.14, QMessageBox, QGIS-Plugin, Pardus, Python-3.8, PyQGIS, PyQt5
+
+homepage=hhttps://github.com/haytastan/HelloPardus/wiki
+category=Plugins
+icon=icon.png
+
+# experimental flag
+experimental=True
+#experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=Vector
+
+# If the plugin can run on QGIS Server.
+server=False
+# =====================  EoF  ============================
